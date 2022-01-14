@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// 🌀 View + ViewPreference
-@available(macOS 12.0, *)
+@available(iOS 13.0, macOS 12.0, *)
 extension View {
     
     /// ⭐ usage: `view.actOnSelfSize { size in ... }`

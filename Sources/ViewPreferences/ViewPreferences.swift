@@ -24,7 +24,8 @@ extension CGRect: HasDefaultValue {
 // -----------------------
 
 /// 🔸 ViewPreference
-@available(macOS 10.15, *)
+///                               ↱ any other unknown platforms announced in the future
+@available(iOS 13.0, macOS 10.15, *)
 public enum ViewPreference {
     
     // 將有關 bounds anchor 的資訊放到 view extension methods 的參數中，
